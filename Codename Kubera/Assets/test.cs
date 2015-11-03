@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Movement : MonoBehaviour {
+public class test : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -10,6 +10,6 @@ public class Movement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		GetComponent<CharacterController>().Move(Vector3.back * Time.deltaTime);
 	}
 }

@@ -45,22 +45,106 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Movement.cs" />
-     <Compile Include="Assets\destroy.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\CustomTypes.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\Enums.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\Extensions.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\FriendInfo.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\GizmoType.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\LoadbalancingPeer.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\PhotonClasses.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\PhotonLagSimulationGui.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\PhotonPlayer.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStatsGui.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStreamQueue.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\PhotonView.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\PingCloudRegions.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\RPC.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\Room.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\RoomInfo.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\RpcIndexComponent.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\ServerSettings.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\SocketUdp.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\SocketWebTcp.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonAnimatorView.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonRigidbody2DView.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonRigidbodyView.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformView.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionControl.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionModel.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationControl.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationModel.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleControl.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleModel.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\ConnectAndJoinRandom.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\HighlightOwnedGameObj.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\InRoomChat.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\InRoomRoundTimer.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\InputToEvent.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\ManualPhotonViewAllocator.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\MoveByKeys.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\OnAwakeUsePhotonView.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\OnClickDestroy.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\OnClickInstantiate.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\OnClickLoadSomething.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\OnJoinedInstantiate.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\OnStartDelete.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\PickupItem.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\PickupItemSimple.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\PickupItemSyncer.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\PointedAtGameObjectInfo.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\PunPlayerScores.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\PunTeams.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\QuitOnEscapeOrBack.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\ServerTime.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\ShowInfoOfPlayer.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\ShowStatusWhenConnecting.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\SmoothSyncMovement.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\SupportLogger.cs" />
+     <Compile Include="Assets\Programming Ult\Photon Unity Networking\UtilityScripts\TimeKeeper.cs" />
+     <Compile Include="Assets\Programming Ult\Plugins\ChatApi\ChatChannel.cs" />
+     <Compile Include="Assets\Programming Ult\Plugins\ChatApi\ChatClient.cs" />
+     <Compile Include="Assets\Programming Ult\Plugins\ChatApi\ChatDisconnectCause.cs" />
+     <Compile Include="Assets\Programming Ult\Plugins\ChatApi\ChatEventCode.cs" />
+     <Compile Include="Assets\Programming Ult\Plugins\ChatApi\ChatOperationCode.cs" />
+     <Compile Include="Assets\Programming Ult\Plugins\ChatApi\ChatParameterCode.cs" />
+     <Compile Include="Assets\Programming Ult\Plugins\ChatApi\ChatPeer.cs" />
+     <Compile Include="Assets\Programming Ult\Plugins\ChatApi\ChatState.cs" />
+     <Compile Include="Assets\Programming Ult\Plugins\ChatApi\ChatUserStatus.cs" />
+     <Compile Include="Assets\Programming Ult\Plugins\ChatApi\IChatClientListener.cs" />
+     <Compile Include="Assets\Programming Ult\Plugins\WebSocket\WebSocket.cs" />
+     <Compile Include="Assets\Scripts\ChatGui.cs" />
+     <Compile Include="Assets\Scripts\CombatHandler.cs" />
+     <Compile Include="Assets\Scripts\destroy.cs" />
+     <Compile Include="Assets\Scripts\generalNetworking.cs" />
+     <Compile Include="Assets\Scripts\networkPlayer.cs" />
+     <Compile Include="Assets\test.cs" />
      <Compile Include="Assets\test2.cs" />
+     <None Include="Assets\Programming Ult\Plugins\Photon3Unity3D.xml" />
+     <None Include="Assets\Programming Ult\Plugins\release_history.txt" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\Programming Ult\Photon Unity Networking\readme.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\Programming Ult\Photon Unity Networking\changelog.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>C:/Users/User/Documents/GitHub/Codename-Kubera/Codename Kubera/Assets/Programming Ult/Plugins/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>C:/Users/User/Documents/GitHub/Codename-Kubera/Codename Kubera/Assets/Programming Ult/Plugins/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

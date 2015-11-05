@@ -1,11 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CombatHandler.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Effects\Realistic Effects Pack\Scripts\Share\FadeInOutShaderColor.cs">
     <Files>
-      <File FileName="Assets\Scripts\CombatHandler.cs" Line="27" Column="53" />
-      <File FileName="Assets\Scripts\generalNetworking.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\networkPlayer.cs" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Effects\Realistic Effects Pack\Scripts\Share\FadeInOutShaderColor.cs" Line="72" Column="44" />
+      <File FileName="Assets\Effects\Realistic Effects Pack\Shaders\Distortion\DistortionCullOff.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

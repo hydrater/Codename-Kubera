@@ -64,7 +64,7 @@ public class CombatHandler : MonoBehaviour {
 		
 		if (Input.GetKeyUp(KeyCode.LeftShift))
 		{
-			if (shiftTimer < 0.3f)
+			if (shiftTimer < 0.3f || !m_CharacterController.isGrounded)
 			{
 				Dash = true;
 				dashTimer = 0;

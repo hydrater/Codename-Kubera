@@ -152,6 +152,7 @@
      <Compile Include="Assets\Programming Ult\Plugins\WebSocket\WebSocket.cs" />
      <Compile Include="Assets\Scripts\ChatGui.cs" />
      <Compile Include="Assets\Scripts\CombatHandler.cs" />
+     <Compile Include="Assets\Scripts\CombatInfo.cs" />
      <Compile Include="Assets\Scripts\destroy.cs" />
      <Compile Include="Assets\Scripts\generalNetworking.cs" />
      <Compile Include="Assets\Scripts\networkPlayer.cs" />
@@ -216,17 +217,11 @@
      <None Include="Assets\Effects\Realistic Effects Pack\Shaders\WaterFree.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
  <HintPath>C:/Users/User/Documents/GitHub/Codename-Kubera/Codename Kubera/Assets/Programming Ult/Plugins/Photon3Unity3D.dll</HintPath>

@@ -156,6 +156,7 @@
      <Compile Include="Assets\Scripts\destroy.cs" />
      <Compile Include="Assets\Scripts\generalNetworking.cs" />
      <Compile Include="Assets\Scripts\networkPlayer.cs" />
+     <Compile Include="Assets\Scripts\notMine.cs" />
      <Compile Include="Assets\test.cs" />
      <Compile Include="Assets\test2.cs" />
      <None Include="Assets\Effects\Realistic Effects Pack\Shaders\GlowAdditive.shader" />

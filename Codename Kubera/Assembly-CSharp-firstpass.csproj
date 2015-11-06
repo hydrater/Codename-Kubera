@@ -70,7 +70,6 @@
      <Compile Include="Assets\Standard Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
      <Compile Include="Assets\Standard Assets\Utility\CurveControlledBob.cs" />
      <Compile Include="Assets\Standard Assets\Utility\FOVKick.cs" />
-     <Compile Include="Assets\Standard Assets\Utility\LerpControlledBob.cs" />
      <Compile Include="Assets\Standard Assets\Utility\ObjectResetter.cs" />
      <None Include="Assets\Effects\Realistic Effects Pack\Shaders\GlowAdditive.shader" />
      <None Include="Assets\Effects\Realistic Effects Pack\Shaders\Matrix\Additive.shader" />
